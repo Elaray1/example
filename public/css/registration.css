@@ -1,0 +1,136 @@
+.reg-info{
+  text-align: center;
+  margin: 20px 0px;
+}
+.reg-info h2{
+  font-size: 30px;
+}
+.reg-info h4{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.reg-form{
+  margin-top: 50px;
+}
+.reg-form p{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+input{
+  height: 36px;
+  width: 200px;
+  text-align: center;
+}
+input:focus {
+background: #eaeaea;
+}
+.password{
+  margin-right: 86px;
+}
+.rep-password{
+  margin-right: 165px;
+}
+.email{
+  margin-right: 50px;
+}
+button{
+  cursor: pointer;
+  height: 36px;
+  width: 93px;
+  margin-bottom: 10px;
+}
+button:hover{
+  cursor: pointer;
+}
+
+
+
+
+.field {
+  display: flex;
+  padding: 10px;
+  width: 25%;
+  margin-left: 37.5%;
+  color: #fff;
+  font-size: 1.3em;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  border: 2px solid #aaa719;
+  background-color: #d4d37f;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 80%;
+  margin-right: 30px;
+}
+
+.box:last-child {
+  margin-bottom: 0;
+}
+
+button.btn {
+  height: auto;
+  width: auto;
+  margin-right: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 0.65em;
+  color: #fff;
+  outline: none;
+}
+
+.btn.light {
+  background-color: #4eafc9;
+  border: 2px solid #2a89a2;
+}
+
+.btn.red {
+  background-color: #dda66d;
+  border: 2px solid #b6821a;
+}
+
+.btn.light:hover {
+  background-color: #2a89a2;
+  border-color: #1d6f85;
+}
+
+.btn.red:hover {
+  background-color: #b6821a;
+  border-color: #946912;
+}
+
+.btn.success {
+  background-color: green;
+  border-color: #32CD32;
+}
+
+.btn.success:hover {
+  background-color: #006400;
+  border-color: #32CD32;
+}
+textarea{
+  margin-right: 25px;
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+.new{
+  background-color: #4eafc9;
+  border: 2px solid #2a89a2;
+}
+.newbutton{
+  margin-right: 20px;
+}
+.edition{
+  width: 80%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+
+
+}

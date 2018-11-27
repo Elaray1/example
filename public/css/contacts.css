@@ -1,0 +1,23 @@
+.main-info{
+  text-align: center;
+  margin: 20px 0px;
+}
+.main-info h2{
+  font-size: 30px;
+}
+.main-info h4{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+p{
+  margin-top: 30px;
+}
+a{
+  color: white;
+}
+span{
+  color: #80466a;
+}
+@media screen and (max-width: 768px) {
+
+}

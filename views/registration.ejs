@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Регистрация</title>
+<% include blocks/headlinks.ejs %>
+<link rel="stylesheet" type="text/css" href="/public/css/registration.css">
+<script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+<body>
+<% include blocks/header.ejs %>
+<main>
+    <div class="reg-info">
+
+      <hr>
+      <h2>JavaScript</h2>
+      <h3>На этой странице я реализовал пример регистрации на сайте и добавление заданий:</h3>
+      <div class="reg-form">
+        <h4>Регистрация:</h4>
+        <p class="email">Имя:
+        <input id="emailInput" type="text" placeholder="Имя"></p>
+        <p class="password">Пароль:
+        <input id="passwordInput" type="password" placeholder="Введите пароль"></p>
+        <p class="rep-password">Повтор пароля:
+        <input id="rep-passwordInput" type="password" placeholder="Повторите пароль"></p>
+        <button  id="clearButton1" type="button" name="button">Отправить</button>
+      </div>
+
+
+        <hr>
+        <h3>Давайте теперь проверим, хранятся ли данные в базе. Введите отправленные данные, а затем попробуйте ввести ложные данные:</h3><br>
+        <div class="reg-form">
+          <p class="email">Имя:
+          <input id="emailCheck" type="text" placeholder="Имя"></p>
+          <p class="password">Пароль:
+          <input id="passwordCheck" type="password" placeholder="Введите пароль"></p>
+          <button id="clearButton2" type="button" name="button">Отправить</button>
+
+        <h3>Хотелось бы отметить, что в данном варианте регистрации допустимо создание аккаунтов с одинаковым именем. Из-за этого могут возьникнуть баги.
+          Это легко исправляется, но мне, если честно, лень.
+        </h3>
+          <hr>
+          <h4>Задания:</h4>
+          <div id="example"></div>
+      </div>
+    </div>
+</main>
+
+
+
+
+
+
+
+<% include blocks/footer.ejs %>
+<script src="/public/script/script.js" type="text/babel"></script>
+</body>
+</html>

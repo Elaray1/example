@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Главная страница</title>
+  <% include blocks/headlinks.ejs %>
+</head>
+<body>
+ <header>
+   <div class="header-container">
+     <div class="logo">
+       <a href="/"><img  class="gragiclogo" src="\public\img\logo.png" alt="Logo"></a>
+     </div>
+     <input type="checkbox" id="menu-checkbox">
+     <nav role="navigation">
+       <label for="menu-checkbox" class="toggle-button"
+       data-open="Меню" data-close="Закрыть" onclick></label>
+       <ul class="main-menu">
+         <li><a href="/">Домой</a></li>
+         <li><a href="/registration">Регистрация</a></li>
+         <li><a href="#">Обо мне</a></li>
+         <li><a href="#">Контакты</a></li>
+       </ul>
+     </nav>
+   </div>
+ </header>
+
+
+ <main>
+    <section class="top-slide">
+      <div class="top-container">
+        <div><h2>ДОБРО ПОЖАЛОВАТЬ!</h2></div>
+        <div><p>Данный проект предназначен</p></div>
+        <div><p>для применения изученного материала</p></div>
+        <div><p>на практике</p></div>
+      </div>
+    </section>
+    <section class="main-info">
+      <div class="main-info-container">
+        <h3>Приветствую на своём сайте!!!</h3>
+        <h2>Сейчас я расскажу о том, что вы можете посмотреть здесь.</h2><br><br>
+        <p>1) Данный сайт является адаптивным. Побалуйтесь с размером окна и убедитесь в этом.<p>
+        <p>2) Во вкладке "Регистрация" будут продемонстрированы знания JavaScript и React.js на примере регистрации аккаунта и добавлении заданий.</p>
+        <p>3) Во вкладке "Обо мне" я расскажу об изученных мной технологиях.</p>
+        <p>4) Вкладка "Контакты" была добавлена для численности (Даже тут для 4-ого пункта пригодилась). В ней вы можете посмотреть мой номер и ссылки(ссылку) на социальные сети.</p>
+        <p>Примечание: В силу отсутствия фантазии я не придумал, что можно написать в футере. Поэтому зашёл на первый попавшийся сайт (Onliner.by) и сделал футер как там.</p>
+      </div>
+    </section>
+ </main>
+
+ <footer>
+   <div class="footer-container">
+     <div class="footer-href"><a href="#">О компании</a></div>
+     <div class="footer-href"><a href="#">Реклама</a></div>
+     <div class="footer-href"><a href="#">Размещение в каталоге</a></div>
+     <div class="footer-href"><a href="#">Вакансии</a></div>
+     <div class="footer-href"><a href="#">Манифест</a></div>
+     <div class="footer-href"><a href="#">Правила</a></div>
+     <div class="footer-href"><a href="#">Публичный договор</a></div>
+     <div class="footer-href"><a href="#">Поддержка пользователей</a></div>
+   </div>
+ </footer>
+
+
+ <% include blocks/bodylinks.ejs %>
+</body>
+</html>
